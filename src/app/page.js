@@ -178,12 +178,12 @@ export default function Home() {
                 nature. As a local host, I invite you to join me for a unique
                 experience that goes beyond the typical tourist attractions.
                 Take advantage of our complimentary lazy day outings, where
-                you'll have the chance to mingle with villagers and immerse
+                you`ll have the chance to mingle with villagers and immerse
                 yourself in our rich culture. Sit around the campfire with us,
                 share stories, and enjoy the rhythm of jembe drumming sessions
-                right on the beach, led by our talented local boys. It's all
+                right on the beach, led by our talented local boys. It`s all
                 about genuine connections and authentic experiences here in The
-                Gambia, and I can't wait to share them with you.
+                Gambia, and I can`t wait to share them with you.
               </p>
             </div>
             <div className=" w-full lg:w-1/2">
@@ -232,7 +232,7 @@ export default function Home() {
                 Gambian life along the way. A highlight of our trips is a visit
                 to the neighboring village of Daranka, a journey that takes
                 about two hours by boat, guided by experienced captains who know
-                the river like the back of their hand. In Daranka, you'll
+                the river like the back of their hand. In Daranka, you`ll
                 encounter the remarkable Elephant Tree, a local treasure. This
                 unique treehouse, adorned with an elephant sculpture atop its
                 branches, offers a fascinating glimpse into village life. Step
