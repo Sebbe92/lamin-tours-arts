@@ -34,3 +34,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+Bilde av Isis Petroni: https://www.pexels.com/nb-no/bilde/solnedgang-dyr-afrika-vill-13142739/
+
+Bilde av ruben verla: https://www.pexels.com/nb-no/bilde/pattedyr-gress-park-dyreverdenfotografier-11153531/
+
+Bilde av Amaury Michaux: https://www.pexels.com/nb-no/bilde/gress-park-tre-reise-18189700/
+
+Bilde av IAIN BOOTH: https://www.pexels.com/nb-no/bilde/natur-love-ligge-dyreliv-17243826/

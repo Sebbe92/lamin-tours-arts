@@ -2,18 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
+@layer base {
+  :root {
+    --color-primary: rgb(199 25 45);
+    --color-secondary: rgb(12 28 140);
+    --color-tertiary: rgb(58 119 40);
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+h1,
+h2,
+h3 {
+  font-family: var(--font-bangers);
+}
+p {
+  padding: 25px;
+  font-family: var(--font-inter);
+}
+.font-inter {
+  font-family: var(--font-inter), system-ui;
+}
+.font-bangers {
+  font-family: var(--font-bangers), system-ui;
 }
 
 body {
@@ -26,6 +43,27 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Demonstrate a "mostly customized" scrollbar
+ * (won't be visible otherwise if width/height is specified) */
+.mostly-customized-scrollbar::-webkit-scrollbar {
+  height: 5px;
+  scrollbar-width: thin;
+  background-color: transparent; /* or add it to the track */
+}
+
+/* Add a thumb */
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb {
+  background: gray;
+  opacity: 0.5;
+}
+.mostly-customized-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgb(87, 87, 87);
+  opacity: 1;
+}
 @layer utilities {
   .text-balance {
     text-wrap: balance;
